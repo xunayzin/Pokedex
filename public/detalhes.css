@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: xx-large;
+    margin-top: 5rem;
+}
+
+div.card-container {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+    background-color: #333333;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px #9F8B38;
+}
+
+div.card-container:hover {
+    transform: scale(1.1);
+    background-color: #333333;
+}
+
+
+
+div.header-card {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
